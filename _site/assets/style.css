@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 1.4;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 33em;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border: 3px solid #aaa;
+  font-size: 1em;
+  border-radius: .5em;
+  padding: .25em;
+  background-color: #eee;
+  max-width: 240px;
+}
+input[type=submit] {
+  background-color: #3e3e3e;
+  color: white;
+}
+input:focus, input:active {
+  outline: none;
+  background-color: white;
+}
+
+
+html {
+  font-family: "avenir next", avenir, sans-serif;
+  color: white;
+  background-color: #9b9b9b;
+  background-image: url(../assets/bg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, .buttons {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #3e3e3e;
+  line-height: 1;
+  text-align: center;
+}
+
+a {
+  color: #8cdef8;
+  text-decoration: none;
+}
+
+.actions a:after {
+  content: ' | ';
+}
+
+.actions a:last-child:after {
+  content: '';
+}
+
+.social a {
+  -webkit-transition: opacity .3s;
+  opacity: .9;
+}
+.social a:hover {
+  opacity: 1;
+}
+.social a:after {
+  content: '';
+}
+
+.video_embed {
+  background: black;
+}
+.songkick_embed {
+  background: white;
+  color: #3e3e3e;
+}
+
+
+
+.ep_link {
+  text-align: center;
+}
+.cols {
+  overflow: auto;
+}
+
+.col {
+  margin-bottom: 1em;
+  border-bottom: 1px solid white;
+  padding-bottom: 1em;
+}
+
+.social img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.actions li {
+  margin-bottom: 1em;
+}
+
+.video_embed {
+  width: 100%;
+  height: 0;
+  margin: 1em auto;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video_embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.songkick_embed {
+  padding: 1px 1em;
+}
+
+.songkick-events {
+  font-size: .75em;
+  margin: 1.25em 0;
+}
+
+.hide {
+  display: none;
+}
+
+.list div { display: inline-block; }
+
+@media (min-width: 555px) {
+  body {
+    font-size: 23px;
+  }
+  .col {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .col:first-child {
+    padding-right: 1em;
+    text-align: right;
+  }
+  h1 {
+    font-size: 4em;
+  }
+}
+
+
+
+

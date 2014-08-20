@@ -1,0 +1,57 @@
+html {
+  font-family: "avenir next", avenir, sans-serif;
+  color: white;
+  background-color: #9b9b9b;
+  background-image: url(../assets/bg.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, .buttons {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #3e3e3e;
+  line-height: 1;
+  text-align: center;
+}
+
+a {
+  color: #8cdef8;
+  text-decoration: none;
+}
+
+.actions a:after {
+  content: ' | ';
+}
+
+.actions a:last-child:after {
+  content: '';
+}
+
+.social a {
+  -webkit-transition: opacity .3s;
+  opacity: .9;
+}
+.social a:hover {
+  opacity: 1;
+}
+.social a:after {
+  content: '';
+}
+
+.video_embed {
+  background: black;
+}
+.songkick_embed {
+  background: white;
+  color: #3e3e3e;
+}
+
